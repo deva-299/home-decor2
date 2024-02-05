@@ -1,0 +1,231 @@
+@import url("https://fonts.google.com/specimen/Lora?query=lora");
+
+    margin:auto
+    pa
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family:'lora',serif;
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing:2px;
+}
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.904);
+    color: rgba(255, 250, 240, 0.925);
+    width:100%;
+    max-height: max-content;
+    min-height: len;
+    text-transform: uppercase;
+    z-index: 1;
+
+    
+}
+.logo.section.section{
+    width:10% ;
+    margin-left: initial;
+
+}
+.logo.sec.sec{
+    margin-left:0.rem;
+    max-width: 35%;
+    max-height: 100%;
+}
+.navigation-bar{
+    width: 70%;
+    flex-grow: 2%;
+    margin-inline-end: initial;
+
+
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+header a,
+footer a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+ul{
+    display:  flex;
+    flex-direction: row;
+}
+.nav-link:hover{
+    color: crimson;
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 0px;
+    padding-top: len;
+    width: 100%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding:5% 0 ;
+}
+section div{
+    width: 50%;
+    margin: 0 auto; 
+}
+section h2{
+    text-align: center;
+}
+.cover.section{
+    margin-top: 0px;
+    padding: 0% 0% 0% 0%;
+}
+h1{
+    padding-bottom: 30px;
+    padding-left: 0.sem;
+    text-align: center;
+    font-size: svw;
+    letter-spacing: 0,sem;
+}
+.title-text{
+    width:40%;
+    text-align: center;
+    color: black;
+    margin: auto;
+    padding: 0.20px;
+    animation: fade-in 2s;
+}
+@hey:frames fade-in¨{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    .box-feature{
+        width: 60%;
+        max-height: auto;
+    }
+    .box-feature img{
+        width:100%;
+    }
+    .box-feature .cover-image{
+        animation: fade-in 5s;
+    }
+    .story-section{
+        display: flex;
+        flex-direction:row-reverse;
+        background-color: black;
+        color: whitesmoke;
+
+
+    }
+    .section-text h2{
+        text-align:center;
+    }
+    .section-text p{
+        text-align: justify;
+        margin:auto 2.5em;
+        line-height:1.9em;
+
+    }
+    .samples{
+        flex-direction:column;
+        text-align:center;
+        background-color: #e4dcdc;
+
+    }
+    .featured{
+        width:90%;
+        display:grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        grid-gap:4%;
+        margin:20px auto;
+    }
+    .work{
+        width: 100%;
+        color: black;
+
+
+    }
+    .work img{
+        width:400px;
+        height:400px;
+        current:pointer;
+        max-height:auto;
+        border: radius 20px;
+        opacity:0.8;
+    }
+    .work img:hover{
+        cursor:pointer;
+        transform:translate(-15px)
+        transition:all  ease 0.9s;
+        opacity:1;
+    }
+}
+    #video{
+        max-width: -webkit-fill-available;
+        margin: 50px 10px 10px 10px;
+    }
+    h2{
+        font-size:3.0vw;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+    }
+    .contact-section{
+        background:#222222;
+        color:ghostwhite
+    }
+    .form-box{
+        padding-top:len;
+    }
+    form.form-entry{
+        display:block;
+        padding:0.8em 0;
+    }
+    .section-text h2{
+        letter-spacing:5px;
+        padding-left: 40px;
+
+    }
+    form.text-box{
+        margin-top:0.3em;
+        width:100%;
+        padding:0.7em 0;
+        border-radius: 2px;
+        border: 2px transparent;
+    }
+    form .btn{
+        text-align: center;
+        background-color: aliceblue;
+        color: black;
+        font-weight: 700;
+        letter-spacing: inherit;
+        border:2px solid #eaeaea;
+        box-shadow: 0px 0px 10px 1px #292929;
+        border-radius: 5px;
+        padding:0.5em 2em;
+        font-size:14px;
+
+
+    }
+    .btn:hover{
+        cursor:pointer;
+        background:rgb(32, 32, 32);
+        color: aliceblue;
+        
+
+    }
+
+
+
+
+
+
+
+
+
